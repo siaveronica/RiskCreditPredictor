@@ -12,9 +12,9 @@ Aplikasi "Risk Credit Predictor" adalah web yang dirancang untuk membantu penggu
 - Fitur
 1. Login Pengguna
 2. Prediksi Risiko Kredit
-3. Saran Keuangan Berbasis AI=
-4. Rencana Peningkatan Kredit Berbasis AI: Jika risiko kredit diprediksi tinggi, pengguna dapat meminta rencana langkah-demi-langkah untuk meningkatkan profil kredit mereka, juga dihasilkan oleh Gemini API.
-5. Riwayat Prediksi: Menyimpan dan menampilkan riwayat semua prediksi yang dibuat oleh pengguna.
-6. Ekspor Data: Pengguna dapat mengekspor riwayat prediksi mereka ke format Excel (.xlsx) atau PDF (.pdf).
-7. Antarmuka Responsif: Tata letak aplikasi menyesuaikan diri dengan mulus di berbagai ukuran layar (ponsel, tablet, desktop) berkat Tailwind CSS.
-8. Animasi UI: Menggunakan Framer Motion untuk animasi yang halus pada elemen UI, seperti transisi masuk dan indikator pemuatan.
+3. Saran Keuangan Berbasis AI
+4. Rencana Peningkatan Kredit Berbasis AI
+5. Riwayat Prediksi
+6. Ekspor Data
+7. Antarmuka Responsif
+8. Animasi UI
