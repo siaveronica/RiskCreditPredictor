@@ -1,4 +1,4 @@
-# RiskCreditPredictor
+# Risk Credit Predictor
 Risk Credit Predictor App
 Deskripsi Projek
 Aplikasi "Risk Credit Predictor" adalah web yang dirancang untuk membantu pengguna memprediksi risiko kredit mereka berdasarkan beberapa faktor keuangan dan demografi. Selain memberikan prediksi risiko (Tinggi atau Rendah), aplikasi ini juga menawarkan saran keuangan yang dipersonalisasi dan rencana peningkatan kredit yang dihasilkan oleh model AI (Gemini API) untuk membantu pengguna mengelola kesehatan finansial mereka. Aplikasi ini memiliki antarmuka yang bersih, modern, dan responsif, memastikan pengalaman pengguna yang lancar di berbagai perangkat.
@@ -42,8 +42,4 @@ Animasi UI: Menggunakan Framer Motion untuk animasi yang halus pada elemen UI, s
 
 Indikator Pemuatan: Animasi spinner ditampilkan pada tombol saat panggilan API AI sedang berlangsung, memberikan umpan balik visual kepada pengguna.
 
-/Instruksi Penyiapan Klon Repositori/
-
-git clone https://github.com/siaveronica/credit-predictor-app.git
-cd credit-predictor-app
 
