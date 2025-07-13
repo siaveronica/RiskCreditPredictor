@@ -42,15 +42,8 @@ Animasi UI: Menggunakan Framer Motion untuk animasi yang halus pada elemen UI, s
 
 Indikator Pemuatan: Animasi spinner ditampilkan pada tombol saat panggilan API AI sedang berlangsung, memberikan umpan balik visual kepada pengguna.
 
-/Instruksi Penyiapan/
-Klon Repositori:
+/Instruksi Penyiapan Klon Repositori/
 
 git clone https://github.com/siaveronica/credit-predictor-app.git
 cd credit-predictor-app
 
-/Penjelasan Dukungan AI/
-Aplikasi ini memanfaatkan Gemini API (khususnya model gemini-2.0-flash) untuk menyediakan fungsionalitas AI yang cerdas:
-
-Saran Keuangan: Ketika pengguna meminta saran keuangan, aplikasi mengirimkan profil kredit mereka (usia, pendapatan, pinjaman, riwayat kredit, dan hasil prediksi risiko) sebagai prompt ke Gemini API. Model AI kemudian menganalisis informasi ini dan menghasilkan nasihat keuangan yang ringkas dan relevan, disesuaikan dengan situasi risiko pengguna.
-
-Rencana Peningkatan Kredit: Untuk pengguna dengan risiko kredit tinggi, aplikasi mengirimkan prompt serupa yang meminta rencana tindakan langkah-demi-langkah untuk meningkatkan profil kredit mereka. Gemini API merespons dengan saran praktis tentang pengelolaan utang, peningkatan riwayat kredit, dan perencanaan keuangan.
