@@ -3,9 +3,9 @@ Risk Credit Predictor App
 Deskripsi Projek
 Aplikasi "Risk Credit Predictor" adalah web yang dirancang untuk membantu pengguna memprediksi risiko kredit mereka berdasarkan beberapa faktor keuangan dan demografi. Selain memberikan prediksi risiko (Tinggi atau Rendah), aplikasi ini juga menawarkan saran keuangan yang dipersonalisasi dan rencana peningkatan kredit yang dihasilkan oleh model AI (Gemini API) untuk membantu pengguna mengelola kesehatan finansial mereka. Aplikasi ini memiliki antarmuka yang bersih, modern, dan responsif, memastikan pengalaman pengguna yang lancar di berbagai perangkat.
 
-*Teknologi yang Digunakan*
+Teknologi yang Digunakan
 
-Frontend:
+/Frontend/
 
 React: Pustaka JavaScript untuk membangun antarmuka pengguna yang interaktif.
 
@@ -13,17 +13,17 @@ Tailwind CSS: Kerangka kerja CSS utility-first untuk styling yang cepat dan resp
 
 Framer Motion: Pustaka animasi untuk React yang digunakan untuk transisi UI yang halus dan menarik.
 
-Data Handling & Export:
+/Data Handling & Export/
 
 XLSX: Pustaka untuk membaca dan menulis file Excel.
 
 jsPDF & jspdf-autotable: Pustaka untuk menghasilkan dokumen PDF dari data tabel.
 
-AI/LLM:
+/AI/LLM/
 
 Gemini API (gemini-2.0-flash): Digunakan untuk menghasilkan saran keuangan dan rencana peningkatan kredit yang dipersonalisasi.
 
-Fitur
+/Fitur/
 Login Pengguna: Pengguna dapat login dengan detail pribadi mereka (Nama, NIK, Tanggal Lahir, Domisili). Validasi input NIK (16 digit angka) dan Domisili (hanya huruf) diterapkan menggunakan ekspresi reguler.
 
 Prediksi Risiko Kredit: Memprediksi risiko kredit (Tinggi atau Rendah) berdasarkan usia, penghasilan, jumlah pinjaman, dan riwayat kredit.
@@ -42,37 +42,13 @@ Animasi UI: Menggunakan Framer Motion untuk animasi yang halus pada elemen UI, s
 
 Indikator Pemuatan: Animasi spinner ditampilkan pada tombol saat panggilan API AI sedang berlangsung, memberikan umpan balik visual kepada pengguna.
 
-Instruksi Penyiapan
-Untuk menjalankan aplikasi ini secara lokal, ikuti langkah-langkah berikut:
-
+/Instruksi Penyiapan/
 Klon Repositori:
 
-git clone https://github.com/your-username/credit-predictor-app.git
+git clone https://github.com/siaveronica/credit-predictor-app.git
 cd credit-predictor-app
 
-(Ganti your-username dengan nama pengguna GitHub Anda dan credit-predictor-app dengan nama repositori Anda jika berbeda.)
-
-Dapatkan Kunci API Gemini Anda:
-
-Kunjungi Google AI Studio atau Google Cloud Console.
-
-Buat atau dapatkan kunci API Gemini Anda.
-
-Penting: Buka file script.js dan ganti placeholder AIzaSyAR7s0rKty8rFweCyQASOYZy68j9QMKAWI dengan kunci API Gemini Anda yang sebenarnya.
-
-const apiKey = "YOUR_GEMINI_API_KEY_HERE"; // Ganti dengan kunci API Gemini Anda yang sebenarnya
-
-Buka index.html:
-Karena ini adalah aplikasi frontend sederhana tanpa backend yang kompleks, Anda cukup membuka file index.html di browser web Anda.
-
-# Dari direktori proyek
-open index.html # di macOS
-start index.html # di Windows
-xdg-open index.html # di Linux
-
-Atau, Anda bisa menggunakan ekstensi "Live Server" di VS Code atau server web sederhana (misalnya, python -m http.server) untuk menyajikannya.
-
-Penjelasan Dukungan AI
+/Penjelasan Dukungan AI/
 Aplikasi ini memanfaatkan Gemini API (khususnya model gemini-2.0-flash) untuk menyediakan fungsionalitas AI yang cerdas:
 
 Saran Keuangan: Ketika pengguna meminta saran keuangan, aplikasi mengirimkan profil kredit mereka (usia, pendapatan, pinjaman, riwayat kredit, dan hasil prediksi risiko) sebagai prompt ke Gemini API. Model AI kemudian menganalisis informasi ini dan menghasilkan nasihat keuangan yang ringkas dan relevan, disesuaikan dengan situasi risiko pengguna.
